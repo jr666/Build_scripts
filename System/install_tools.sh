@@ -33,13 +33,29 @@ sudo apt update
 BLUE "Installing git..."
 sudo apt install -y git
 
+BLUE "Installing terminator..."
+sudo apt install -y terminator
+
+BLUE "Installing guake..."
+sudo apt-get install -y guake
+
 ## Logitech Unifying Receiver
 BLUE "Installing solarr (Logitech Unifying Receiver"
-sudo apt-get install solaar
+sudo apt install -y solaar
 
 ## Insert LOGIN BANNER items/tool status' into /etc/update-motd.d/
 # 
 
+## Performance Tools
 ## NVidia GPU htop-type monitor
 BLUE "Installing nvtop"
-sudo apt install nvtop
+sudo apt install -y nvtop
+
+BLUE "Installing htop"
+sudo apt install -y htop
+
+## Network Utilities
+BLUE "Installing curl..."
+sudo apt-get install -y curl
+
+## Security Tools
